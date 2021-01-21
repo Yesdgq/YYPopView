@@ -1,0 +1,16 @@
+PODS:
+  - YYPopView (0.1.0)
+
+DEPENDENCIES:
+  - YYPopView (from `../`)
+
+EXTERNAL SOURCES:
+  YYPopView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYPopView: 4f333e728cbd5a6e0bb1889bef3ed9b1fcba21c1
+
+PODFILE CHECKSUM: 8cb786ecc1f667ac4212b306cf7a2baef3d3b0ed
+
+COCOAPODS: 1.9.1

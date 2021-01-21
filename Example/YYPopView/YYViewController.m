@@ -7,6 +7,7 @@
 //
 
 #import "YYViewController.h"
+#import <YYPopViewHeader.h>
 
 @interface YYViewController ()
 
@@ -17,7 +18,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    
+    NSMutableArray *menus = [NSMutableArray array];
+    YYPopCellData *AddContact= [[YYPopCellData alloc] init];
+    AddContact.image = @"AddContact";
+    AddContact.title = @"添加联系人";
+    [menus addObject:AddContact];
+    
+    YYPopCellData *deleteRecords = [[YYPopCellData alloc] init];
+    deleteRecords.image = @"DeleteRecords";
+    deleteRecords.title = @"清空记录";
+    [menus addObject:deleteRecords];
+    
+    CGFloat height = [YYPopCell getHeight] * menus.count + YYPopView_Arrow_Size.height;
 }
 
 - (void)didReceiveMemoryWarning

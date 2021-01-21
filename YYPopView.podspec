@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YYPopView'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'A short description of YYPopView.'
 
 # This description is used to generate tags and improve search results.
@@ -17,18 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = ''
 
-  s.homepage         = 'https://github.com/yesdgq@yahoo.com/YYPopView'
+  s.homepage         = 'https://github.com/Yesdgq/YYPopView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yesdgq@yahoo.com' => 'yesdgq@yahoo.com' }
-  s.source           = { :git => 'https://github.com/yesdgq@yahoo.com/YYPopView.git', :tag => s.version.to_s }
+  s.author           = { 'Yesdgq' => 'yesdgq@yahoo.com' }
+  s.source           = { :git => 'https://github.com/Yesdgq/YYPopView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'YYPopView/Classes/**/*'
   

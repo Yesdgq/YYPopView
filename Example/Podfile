@@ -1,13 +1,9 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'YYPopView_Example' do
   pod 'YYPopView', :path => '../'
 
-  target 'YYPopView_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end
